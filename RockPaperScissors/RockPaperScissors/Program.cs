@@ -19,7 +19,7 @@ namespace RockPaperScissors
            
             // Generate a random number from 1-3 for cpuChoice
             Random rand = new Random();
-            int randInt = rand.Next(1, 3);
+            int randInt = rand.Next(1, 4);
             string cpuChoice = "";
             // 1 == rock
             if(randInt == 1)
@@ -40,18 +40,21 @@ namespace RockPaperScissors
             // if userChoice == rock && cpuChoice == rock
             if(userChoice == "rock" && cpuChoice == "rock")
             {
+                Console.WriteLine($"You chose {userChoice} and the computer chose {cpuChoice}");
                 // tie game
                 Console.WriteLine("Tie Game!");
             }
             // if userChoice == rock && cpuChoice == paper
             if (userChoice == "rock" && cpuChoice == "paper")
             {
+                Console.WriteLine($"You chose {userChoice} and the computer chose {cpuChoice}");
                 // cpu wins
                 Console.WriteLine("The computer won!");
             }
             // if userChoice == rock && cpuChoice == scissors
             if (userChoice == "rock" && cpuChoice == "scissors")
             {
+                Console.WriteLine($"You chose {userChoice} and the computer chose {cpuChoice}");
                 // player wins
                 Console.WriteLine("You won!");
             }
@@ -60,18 +63,21 @@ namespace RockPaperScissors
             // if userChoice == paper && cpuChoice == rock
             if (userChoice == "paper" && cpuChoice == "rock")
             {
+                Console.WriteLine($"You chose {userChoice} and the computer chose {cpuChoice}");
                 // player wins
                 Console.WriteLine("You won!");
             }
             // if userChoice == paper && cpuChoice == paper
             if (userChoice == "paper" && cpuChoice == "paper")
             {
+                Console.WriteLine($"You chose {userChoice} and the computer chose {cpuChoice}");
                 // tie game
                 Console.WriteLine("Tie Game!");
             }
             // if userChoice == paper && cpuChocie == scissors
             if(userChoice == "paper" && cpuChoice == "scissors")
             {
+                Console.WriteLine($"You chose {userChoice} and the computer chose {cpuChoice}");
                 // cpu wins
                 Console.WriteLine("The computer won!");
             }
@@ -79,18 +85,21 @@ namespace RockPaperScissors
             // if userChoice == scissors && cpuChoice == rock
             if (userChoice == "scissors" && cpuChoice == "rock")
             {
+                Console.WriteLine($"You chose {userChoice} and the computer chose {cpuChoice}");
                 // cpu wins
                 Console.WriteLine("The computer won!");
             }
             // if userChoice == scissors && cpuChoice == paper
             if (userChoice == "scissors" && cpuChoice == "paper")
             {
+                Console.WriteLine($"You chose {userChoice} and the computer chose {cpuChoice}");
                 // player wins
                 Console.WriteLine("You won!");
             }
             // if userChoice == scissors && cpuChoice == scissors
             if (userChoice == "scissors" && cpuChoice == "scissors")
             {
+                Console.WriteLine($"You chose {userChoice} and the computer chose {cpuChoice}");
                 // tie game
                 Console.WriteLine("Tie Game!");
             }
